@@ -1,0 +1,45 @@
+.footer {
+	width: 100%;
+	height: 200px;
+	background-color: #121619;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 10px;
+}
+
+.socialMedia svg {
+	color: white;
+	margin: 20px;
+	font-size: 50px;
+	cursor: pointer;
+}
+.socialMedia svg:hover {
+	color: rgb(97, 97, 207);
+	margin: 20px;
+	font-size: 60px;
+	cursor: pointer;
+}
+.footer p {
+	color: white;
+	text-align: center;
+}
+.footer p:hover {
+	color: rgb(103, 132, 175);
+	text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+	.footer {
+		display: grid;
+		flex-direction: column;
+		flex-wrap: nowrap;
+
+		height: auto;
+	}
+	.footer p {
+		color: white;
+		text-align: center;
+	}
+}
